@@ -1,0 +1,35 @@
+:root {
+	--gap: 1.25rem;
+}
+.movie-list {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 1.25rem;
+}
+
+.movie {
+	flex: 1 1 calc(33% - var(--gap));
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+.movie h2 {
+	margin-top: 0;
+}
+
+.movie p {
+	margin-bottom: 10px;
+}
+
+.movie img {
+	max-width: 100%;
+	border-radius: 5px;
+}
