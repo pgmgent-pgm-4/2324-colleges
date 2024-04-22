@@ -6,9 +6,9 @@ export default function MovieCard({ movie }) {
 			<h2>{movie.title}</h2>
 			<p>{movie.synopsis}</p>
 			<div>
-				{movie.tags.map((tag) => {
-					<span>{tag} </span>;
-				})}
+				{movie.tags.map((tag, i) => (
+					<span key={`tag-${i}`}>{tag} </span>
+				))}
 			</div>
 		</div>
 	);
