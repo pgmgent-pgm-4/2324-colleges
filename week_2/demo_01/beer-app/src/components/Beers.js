@@ -1,9 +1,24 @@
 import React, { useState, useEffect } from "react";
 import Beer from "./Beer";
+import SelectCountry from "./SelectCountry";
 
 export default function Beers() {
 	const [country, setCountry] = useState("italy");
 	const [beers, setBeers] = useState([]);
+	const countries = [
+		{
+			value: "italy",
+			name: "Italy",
+		},
+		{
+			value: "belgium",
+			name: "Belgium",
+		},
+		{
+			value: "spain",
+			name: "Spain",
+		},
+	];
 
 	// console.log(process.env.REACT_APP_API_BEER_KEY);
 
@@ -26,6 +41,12 @@ export default function Beers() {
 
 	return (
 		<div>
+			<SelectCountry
+				countries={countries}
+				setCountry={setCountry}
+				country={country}
+			/>
+			<h1>{country}</h1>
 			{beers.map((beer, i) => (
 				<Beer key={`beer-${i}`} beer={beer} />
 			))}
