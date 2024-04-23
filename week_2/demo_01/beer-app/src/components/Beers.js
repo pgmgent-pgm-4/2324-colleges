@@ -5,6 +5,7 @@ import SelectCountry from "./SelectCountry";
 export default function Beers() {
 	const [country, setCountry] = useState("italy");
 	const [beers, setBeers] = useState([]);
+	const [isLoading, setIsLoading] = useState(true);
 	const countries = [
 		{
 			value: "italy",
@@ -23,6 +24,8 @@ export default function Beers() {
 	// console.log(process.env.REACT_APP_API_BEER_KEY);
 
 	useEffect(() => {
+		setIsLoading(true);
+		setBeers([]);
 		const url = "https://beers-list.p.rapidapi.com/beers/" + country;
 		const options = {
 			method: "GET",
@@ -36,6 +39,7 @@ export default function Beers() {
 			.then((data) => {
 				setBeers(data);
 				// console.log(data);
+				setIsLoading(false);
 			});
 	}, [country]);
 
@@ -47,9 +51,14 @@ export default function Beers() {
 				country={country}
 			/>
 			<h1>{country}</h1>
-			{beers.map((beer, i) => (
-				<Beer key={`beer-${i}`} beer={beer} />
-			))}
+			{isLoading && <p>... Loading</p>}
+			{!isLoading && (
+				<>
+					{beers.map((beer, i) => (
+						<Beer key={`beer-${i}`} beer={beer} />
+					))}
+				</>
+			)}
 		</div>
 	);
 }
