@@ -26,7 +26,7 @@ export default function Buttons() {
 		const options = {
 			method: "GET",
 			headers: {
-				"X-RapidAPI-Key": "",
+				"X-RapidAPI-Key": process.env.REACT_APP_API_BEERKEY,
 				"X-RapidAPI-Host": "beers-list.p.rapidapi.com",
 			},
 		};
