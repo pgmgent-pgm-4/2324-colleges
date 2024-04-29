@@ -3,7 +3,12 @@ import "./App.css";
 import Beers from "./components/Beers";
 
 function App() {
-	return <Beers />;
+	return (
+		<>
+			<h1>test</h1>
+			<Beers />
+		</>
+	);
 }
 
 export default App;

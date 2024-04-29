@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Beer from "./Beer";
 import SelectCountry from "./SelectCountry";
 import styles from "./beers.module.css";
-
+import { Button, Container } from "@mui/material";
 
 export default function Beers() {
 	const [country, setCountry] = useState("italy");
@@ -47,20 +47,22 @@ export default function Beers() {
 
 	return (
 		<div>
-			<SelectCountry
-				countries={countries}
-				setCountry={setCountry}
-				country={country}
-			/>
-			<h1 className={styles.error}>{country}</h1>
-			{isLoading && <p>... Loading</p>}
-			{!isLoading && (
-				<>
-					{beers.map((beer, i) => (
-						<Beer key={`beer-${i}`} beer={beer} />
-					))}
-				</>
-			)}
+			<Container maxWidth="sm">
+				<SelectCountry
+					countries={countries}
+					setCountry={setCountry}
+					country={country}
+				/>
+				<h1 className={styles.error}>{country}</h1>
+				{isLoading && <p>... Loading</p>}
+				{!isLoading && (
+					<>
+						{beers.map((beer, i) => (
+							<Beer key={`beer-${i}`} beer={beer} />
+						))}
+					</>
+				)}
+			</Container>
 		</div>
 	);
 }
