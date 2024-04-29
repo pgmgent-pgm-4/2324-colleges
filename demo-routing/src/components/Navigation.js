@@ -8,6 +8,7 @@ export default function Navigation() {
 			<NavLink to={ROUTES.home.path}>{ROUTES.home.title}</NavLink>
 			<NavLink to={ROUTES.about.path}>{ROUTES.about.title}</NavLink>
 			<NavLink to={ROUTES.contact.path}>{ROUTES.contact.title}</NavLink>
+			<NavLink to={ROUTES.blog.path}>{ROUTES.blog.title}</NavLink>
 		</div>
 	);
 }

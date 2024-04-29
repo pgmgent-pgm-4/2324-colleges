@@ -11,4 +11,12 @@ export const ROUTES = {
 		path: "/contact",
 		title: "Contact",
 	},
+	blog: {
+		path: "/blog",
+		title: "Blog",
+	},
+	blogPost: {
+		path: "/blog/:postId",
+		title: "Posts",
+	},
 };
