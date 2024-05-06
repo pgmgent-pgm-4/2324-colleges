@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import allStudents from "../data/student";
 import StudentList from "../components/students/StudentList";
 import StudentSearchForm from "../components/students/StudentSearchForm";
+
 export default function Students() {
 	const [students, setStudents] = useState(allStudents);
 	const [filteredStudents, setFilteredStudents] = useState(allStudents);
@@ -17,6 +18,7 @@ export default function Students() {
 
 	return (
 		<div>
+			<img src="/evelien.png" />
 			<StudentSearchForm
 				inputSearch={inputSearch}
 				setInputSearch={setInputSearch}
