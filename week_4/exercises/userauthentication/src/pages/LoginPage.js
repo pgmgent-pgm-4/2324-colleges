@@ -2,16 +2,13 @@ import React, { useState } from "react";
 import LoginForm from "../components/LoginForm";
 
 export default function LoginPage() {
-	const [username, setUsername] = useState("");
-	const [password, setPassword] = useState("");
+	const [newUser, setNewUser] = useState({
+		username: "",
+		password: "",
+	});
 	return (
 		<div>
-			<LoginForm
-				username={username}
-				password={password}
-				setUsername={setUsername}
-				setPassword={setPassword}
-			/>
+			<LoginForm newUser={newUser} setNewUser={setNewUser} />
 		</div>
 	);
 }

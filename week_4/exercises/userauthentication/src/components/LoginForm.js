@@ -2,18 +2,15 @@ import React, { useContext, useEffect, useState } from "react";
 import { UserContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
 
-export default function LoginForm({
-	username,
-	setUsername,
-	password,
-	setPassword,
-}) {
+export default function LoginForm({ newUser, setNewUser }) {
 	const { user, login } = useContext(UserContext);
-	const [isFormError, setIsFormError] = useState(false)
+	const [isFormError, setIsFormError] = useState(false);
 	const navigate = useNavigate();
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		setIsFormError(login({ username, password }));
+		setIsFormError(
+			login({ username: newUser.username, password: newUser.password })
+		);
 	};
 	useEffect(() => {
 		if (user) navigate("/");
@@ -25,9 +22,11 @@ export default function LoginForm({
 				<input
 					type="text"
 					id="username"
-					value={username}
+					value={newUser.username}
 					onChange={(e) => {
-						setUsername(e.target.value);
+						setNewUser((prev) => {
+							return { ...prev, username: e.target.value };
+						});
 					}}
 				/>
 			</div>
@@ -36,12 +35,17 @@ export default function LoginForm({
 				<input
 					type="password"
 					id="password"
-					value={password}
+					value={newUser.password}
 					onChange={(e) => {
-						setPassword(e.target.value);
+						setNewUser((prev) => {
+							return { ...prev, password: e.target.value };
+						});
 					}}
 				/>
 			</div>
+			{isFormError && (
+				<div style={{ color: "red" }}>Credentials not correct</div>
+			)}
 			<div>
 				<button type="submit">submit</button>
 			</div>

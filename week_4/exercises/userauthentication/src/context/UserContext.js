@@ -5,8 +5,12 @@ export const UserContext = createContext();
 export const UserProvider = ({ children }) => {
 	const [user, setUser] = useState(null);
 	const login = (user) => {
-		if (user.username == "user" && user.password == "password") setUser(user);
-		
+		if (user.username == "evelien" && user.password == "password") {
+			setUser(user);
+			return false;
+		} else {
+			return true;
+		}
 	};
 	const logout = () => {
 		setUser(null);
