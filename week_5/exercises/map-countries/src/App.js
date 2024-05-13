@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "mapbox-gl/dist/mapbox-gl.css";
 import MapView from "./components/MapView";
 
 function App() {
