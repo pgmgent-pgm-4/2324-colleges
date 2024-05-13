@@ -1,0 +1,28 @@
+.emoji-results {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.emoji {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	height: 48px;
+	width: 20%;
+}
+.emoji__symbol {
+	height: 100%;
+	border: 1px solid #000;
+
+	font-size: 2rem;
+	text-align: center;
+	width: 3rem;
+}
+.emoji__title {
+	flex-grow: 1;
+	height: 100%;
+	border: 1px solid #000;
+
+	font-size: 0.8rem;
+}
