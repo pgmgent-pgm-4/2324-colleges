@@ -1,5 +1,5 @@
 {
-  "name": "map-countries",
+  "name": "countries-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,12 +7,9 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/mapbox-gl": "^3.1.0",
-    "loaders.css": "^0.1.2",
     "mapbox-gl": "^3.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-loader-spinner": "^6.1.6",
-    "react-loaders": "^3.0.1",
     "react-map-gl": "^7.1.7",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"

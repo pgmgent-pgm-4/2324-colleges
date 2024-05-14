@@ -1,0 +1,11 @@
+.overlayer {
+	z-index: 400;
+	width: 100vw;
+	height: 100vh;
+	background: white;
+}
+.overlayer svg {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}

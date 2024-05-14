@@ -4,6 +4,7 @@ import { countriesFlags } from "../data/country-flag";
 
 export default function MapPin({ coords, isoCode }) {
 	const [currentFlagUrl, setCurrentFlagUrl] = useState("");
+
 	useEffect(() => {
 		//get the right flag from data country-flag
 		const currentCountry = countriesFlags.filter((country) => {
