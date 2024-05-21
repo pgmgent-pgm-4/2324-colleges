@@ -11,7 +11,7 @@ export default function MapMarker({ longitude, latitude, code }) {
 			return flag.code?.toLowerCase() === code.toLowerCase();
 		});
 		if (currentCountry.length > 0) setCurrentFlagUrl(currentCountry[0].flag);
-	}, []);
+	}, [code]);
 
 	return (
 		<Marker longitude={longitude} latitude={latitude} anchor="bottom">
