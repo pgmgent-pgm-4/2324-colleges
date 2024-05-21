@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 
 export default function BlogPost() {
-  return (
-    <div>BlogPost</div>
-  )
+	// used  html-react-parser library to parse html into react
+	return <div>BlogPost</div>;
 }
