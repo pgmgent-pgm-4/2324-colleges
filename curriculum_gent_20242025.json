@@ -1,0 +1,641 @@
+[
+	{
+		"id": "ITProf",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "CGR"
+				},
+				{
+					"id": "IVC"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 1,
+			"year": 1
+		},
+		"section": "Business & Communication",
+		"title": "IT Professional",
+		"workload": {
+			"ec": 2,
+			"total": 0,
+			"weekly": 5
+		}
+	},
+	{
+		"id": "ITProf",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "CGR"
+				},
+				{
+					"id": "IVC"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 2,
+			"year": 1
+		},
+		"section": "Business & Communication",
+		"title": "IT Professional",
+		"workload": {
+			"ec": 2,
+			"total": 0,
+			"weekly": 5
+		}
+	},
+	{
+		"id": "ITPort",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "CGR"
+				},
+				{
+					"id": "IVC"
+				}
+			],
+			"period": 3,
+			"year": 1
+		},
+		"section": "Business & Communication",
+		"title": "IT Portfolio",
+		"workload": {
+			"ec": 2,
+			"total": 0,
+			"weekly": 4
+		}
+	},
+	{
+		"id": "ITPort",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "CGR"
+				},
+				{
+					"id": "IVC"
+				}
+			],
+			"period": 4,
+			"year": 1
+		},
+		"section": "Business & Communication",
+		"title": "IT Portfolio",
+		"workload": {
+			"ec": 3,
+			"total": 0,
+			"weekly": 4
+		}
+	},
+	{
+		"id": "ITExpl",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "CGR"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 5,
+			"year": 1
+		},
+		"section": "Business & Communication",
+		"title": "IT Exploration",
+		"workload": {
+			"ec": 3,
+			"total": 0,
+			"weekly": 4
+		}
+	},
+	{
+		"id": "ITExpl",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "CGR"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 6,
+			"year": 1
+		},
+		"section": "Business & Communication",
+		"title": "IT Exploration",
+		"workload": {
+			"ec": 3,
+			"total": 0,
+			"weekly": 4
+		}
+	},
+	{
+		"id": "DataMgmt1",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "AGB"
+				},
+				{
+					"id": "CGR"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 1,
+			"year": 1
+		},
+		"section": "Applied Information Technology",
+		"title": "Data Management 1",
+		"workload": {
+			"ec": 3,
+			"total": 0,
+			"weekly": 5
+		}
+	},
+	{
+		"id": "DataMgmt2",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "DDW"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 3,
+			"year": 1
+		},
+		"section": "Applied Information Technology",
+		"title": "Data Management 2",
+		"workload": {
+			"ec": 3,
+			"total": 0,
+			"weekly": 5
+		}
+	},
+	{
+		"id": "DataMgmt3",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "DDW"
+				}
+			],
+			"period": 5,
+			"year": 1
+		},
+		"section": "Applied Information Technology",
+		"title": "Data Management 3",
+		"workload": {
+			"ec": 6,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "Web1",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "EVR"
+				},
+				{
+					"id": "MSP"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 1,
+			"year": 1
+		},
+		"section": "Creative Design & Development",
+		"title": "Web 1: Essentials",
+		"workload": {
+			"ec": 4,
+			"total": 0,
+			"weekly": 6
+		}
+	},
+	{
+		"id": "Web2",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "EVR"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 2,
+			"year": 1
+		},
+		"section": "Creative Design & Development",
+		"title": "Web 2: Intermediate",
+		"workload": {
+			"ec": 4,
+			"total": 0,
+			"weekly": 6
+		}
+	},
+	{
+		"id": "Web3",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "AGB"
+				},
+				{
+					"id": "MSP"
+				}
+			],
+			"period": 3,
+			"year": 1
+		},
+		"section": "Creative Design & Development",
+		"title": "Web 3: Advanced",
+		"workload": {
+			"ec": 4,
+			"total": 0,
+			"weekly": 6
+		}
+	},
+	{
+		"id": "Web4",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "AGB"
+				}
+			],
+			"period": 4,
+			"year": 1
+		},
+		"section": "Creative Design & Development",
+		"title": "Web 4: Web Aninmations & Interactions",
+		"track": "Interactive Front-end Development",
+		"workload": {
+			"ec": 6,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "Web5",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "AGB"
+				}
+			],
+			"period": 5,
+			"year": 1
+		},
+		"section": "Creative Design & Development",
+		"title": "Web 5: Web Frameworks",
+		"track": "Interactive Front-end Development",
+		"workload": {
+			"ec": 6,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "Web6",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "JLB"
+				}
+			],
+			"period": 6,
+			"year": 1
+		},
+		"section": "Creative Design & Development",
+		"title": "Web 6: Creative Coding",
+		"track": "Interactive Front-end Development",
+		"workload": {
+			"ec": 6,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "Pgm-1",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "PDP"
+				},
+				{
+					"id": "MVP"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 1,
+			"year": 1
+		},
+		"section": "Computer Programming",
+		"title": "Programming 1: Essentials",
+		"workload": {
+			"ec": 5,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "Pgm-2",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "AGB"
+				},
+				{
+					"id": "MVP"
+				}
+			],
+			"period": 2,
+			"year": 1
+		},
+		"section": "Computer Programming",
+		"title": "Programming 2: Intermediate",
+		"workload": {
+			"ec": 5,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "Pgm-3",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "FRG"
+				},
+				{
+					"id": "MVP"
+				}
+			],
+			"period": 3,
+			"year": 1
+		},
+		"section": "Computer Programming",
+		"title": "Programming 3: Advanced",
+		"workload": {
+			"ec": 5,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "Pgm-4",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "EVR"
+				}
+			],
+			"period": 4,
+			"year": 1
+		},
+		"section": "Computer Programming",
+		"title": "Programming 4: JAMStack",
+		"track": "Cloud Application Development",
+		"workload": {
+			"ec": 6,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "Pgm-5",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "JLB"
+				}
+			],
+			"period": 5,
+			"year": 1
+		},
+		"section": "Computer Programming",
+		"title": "Programming 5: Full-stack",
+		"track": "Cloud Application Development",
+		"workload": {
+			"ec": 6,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "Pgm-6",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "MVP"
+				}
+			],
+			"period": 6,
+			"year": 1
+		},
+		"section": "Computer Programming",
+		"title": "Programming 6: Mobile",
+		"track": "Cloud Application Development",
+		"workload": {
+			"ec": 6,
+			"total": 0,
+			"weekly": 8
+		}
+	},
+	{
+		"id": "AtWrk-1",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "MSP"
+				},
+				{
+					"id": "NMN"
+				}
+			],
+			"period": 2,
+			"year": 1
+		},
+		"section": "Workplace Learning",
+		"title": "@Work 1: Static Web Projects",
+		"workload": {
+			"ec": 6,
+			"total": 0,
+			"weekly": 10
+		}
+	},
+	{
+		"id": "AtWrk-2",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "FRG"
+				},
+				{
+					"id": "NMN"
+				}
+			],
+			"period": 4,
+			"year": 1
+		},
+		"section": "Workplace Learning",
+		"title": "@Work 2: Dynamic Web Projects",
+		"workload": {
+			"ec": 6,
+			"total": 0,
+			"weekly": 12
+		}
+	},
+	{
+		"id": "AtWrk-3",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "DDW"
+				},
+				{
+					"id": "AGB"
+				}
+			],
+			"period": 6,
+			"year": 1
+		},
+		"section": "Workplace Learning",
+		"title": "@Work 3: Multidiciplinary Web Projects",
+		"workload": {
+			"ec": 9,
+			"total": 0,
+			"weekly": 14
+		}
+	},
+	{
+		"id": "AtWrk-4",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "MVP"
+				},
+				{
+					"id": "x"
+				},
+				{
+					"id": "x"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 7,
+			"year": 1
+		},
+		"section": "Workplace Learning",
+		"title": "@Work 4: Graduation Project",
+		"workload": {
+			"ec": 9,
+			"total": 0,
+			"weekly": 38
+		}
+	},
+	{
+		"id": "AtWrk-5",
+		"academic_year": "2024-2025",
+		"description": "",
+		"organization": {
+			"lecturers": [
+				{
+					"id": "IDC"
+				},
+				{
+					"id": "ISB"
+				},
+				{
+					"id": "IVC"
+				},
+				{
+					"id": "x"
+				},
+				{
+					"id": "x"
+				}
+			],
+			"period": 8,
+			"year": 1
+		},
+		"section": "Workplace Learning",
+		"title": "@Work 5: Internship",
+		"workload": {
+			"ec": 18,
+			"total": 0,
+			"weekly": 38
+		}
+	}
+]

@@ -13,8 +13,8 @@ const router = createBrowserRouter(
 	createRoutesFromElements(
 		<Route path="/" element={<Root />} errorElement={<NotFound />}>
 			<Route path="/" element={<HomePage />} />
-			<Route path="/blog" element={<Blog />} />
-			<Route path="/blog/:slug" element={<BlogPost />} />
+			{/* <Route path="/blog" element={<Blog />} />
+			<Route path="/blog/:slug" element={<BlogPost />} /> */}
 		</Route>
 	)
 );

@@ -10,7 +10,7 @@ import "@fontsource/roboto/700.css";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
-	uri: "https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clvpw3o55000001w65z5l60eb/master",
+	uri: "https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clw4n4vg80oj907w8xxycxvo6/master",
 	cache: new InMemoryCache(),
 });
 
